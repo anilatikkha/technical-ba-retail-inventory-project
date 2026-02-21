@@ -14,7 +14,6 @@ This project demonstrates end-to-end Business Analysis activities, including:
 5. Dashboard Reporting (Tableau)
 
 Business problem
-
 Retail companies often face:
 1. Overstocking and stockouts
 2. Inaccurate inventory tracking
@@ -44,12 +43,11 @@ Tableau_Dashboards
 KPIs and performance dashboards for inventory monitoring.
 
 Tools & Technologies Used
-
-SQL (MySQL / PostgreSQL)
-Tableau
-Confluence
-Jira (Agile framework)
-GitHub (Version Control)
+1. SQL (MySQL / PostgreSQL)
+2. Tableau
+3. Confluence
+4. Jira (Agile framework)
+5. GitHub (Version Control)
 
 Key KPIs Designed
 Inventory Turnover Ratio

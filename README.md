@@ -7,11 +7,11 @@ This project simulates a real-world Retail Inventory Management System designed 
 
 This project demonstrates end-to-end Business Analysis activities, including:
 
-Business Requirement Documentation (BRD)
-Functional Requirement Documentation (FRD)
-Jira user Stories
-SQL Data Analysis
-Dashboard Reporting (Tableau)
+1. Business Requirement Documentation (BRD)
+2. Functional Requirement Documentation (FRD)
+3. Jira user Stories
+4. SQL Data Analysis
+5. Dashboard Reporting (Tableau)
 
 Business problem
 

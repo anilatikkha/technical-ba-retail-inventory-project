@@ -1,0 +1,11 @@
+transaction_id,transaction_date,warehouse_id,store_id,sku_id,product_name,stock_qty,transaction_type
+1,2026-01-01,W1,S1,SKU101,Blue Shirt,50,IN
+2,2026-01-02,W1,S1,SKU101,Blue Shirt,-5,OUT
+3,2026-01-02,W2,S2,SKU102,Black Jeans,100,IN
+4,2026-01-03,W2,S2,SKU102,Black Jeans,-20,OUT
+5,2026-01-03,W1,S1,SKU103,White Sneakers,30,IN
+6,2026-01-04,W1,S1,SKU103,White Sneakers,-25,OUT
+7,2026-01-05,W3,S3,SKU104,Red Jacket,70,IN
+8,2026-01-06,W3,S3,SKU104,Red Jacket,-10,OUT
+9,2026-01-06,W2,S2,SKU105,Green Hat,40,IN
+10,2026-01-07,W2,S2,SKU105,Green Hat,-38,OUT

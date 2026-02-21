@@ -1,6 +1,6 @@
 🛒 Retail Inventory Management System
 
-Technical Business Analyst Portfolio Project
+Technical Business Analyst Portfolio Project  
 Project Overview
 
 This project simulates a real-world Retail Inventory Management System designed to optimize stock levels, reduce inventory shrinkage, and improve reporting accuracy.
@@ -13,8 +13,8 @@ This project demonstrates end-to-end Business Analysis activities, including:
 4. SQL Data Analysis
 5. Dashboard Reporting (Tableau)
 
-Business problem
-Retail companies often face:
+Business problem  
+Retail companies often face:  
 1. Overstocking and stockouts
 2. Inaccurate inventory tracking
 3. Poor demand visibility
@@ -24,22 +24,22 @@ This project provides structured documentation and analytical solutions to addre
 
 Project Deliverables
 
-BRD
+BRD  
 Contains high-level business requirements and stakeholder objectives.
 
-FRD
+FRD  
 Detailed functional specification and system behaviour documentation.
 
-Jira_User_Stories
+Jira_User_Stories  
 Agile userstories with acceptance criteria and priority mapping.
 
-SQL
+SQL  
 Database schema design and analytical SQL queries.
 
-Dataset
+Dataset  
 Sample retail inventory dataset used for analysis.
 
-Tableau_Dashboards
+Tableau_Dashboards  
 KPIs and performance dashboards for inventory monitoring.
 
 Tools & Technologies Used
@@ -49,19 +49,19 @@ Tools & Technologies Used
 4. Jira (Agile framework)
 5. GitHub (Version Control)
 
-Key KPIs Designed
-Inventory Turnover Ratio
-Stock Availability %
-Reorder Point Monitoring
-Category-wise Sales Performance
+Key KPIs Designed  
+* Inventory Turnover Ratio  
+* Stock Availability %  
+* Reorder Point Monitoring  
+* Category-wise Sales Performance  
 
-Role in Project
-Technical Business Analyst
+Role in Project  
+Technical Business Analyst  
 1. Requirement gathering
 2. Process documentation
 3. Data Analysis using SQL
 4. KPI design
 5. Dashboard requirement definition
 
-Project Status
+Project Status  
 In progress- Portfolio Demonstration Project

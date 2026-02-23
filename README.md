@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+This folder contains Tableau Dashboard screenshots.
+=======
 🛒 Retail Inventory Management System
 
 Technical Business Analyst Portfolio Project  
@@ -65,3 +68,4 @@ Technical Business Analyst
 
 Project Status  
 In progress- Portfolio Demonstration Project
+>>>>>>> f7781d6bdca6bf1d52b6f51269112c422d1d98a5

@@ -24,8 +24,10 @@ Business Problem:
 
 * Delayed or inaccurate reporting affects decision-making.
 
-<b>Stackholders</b>
-                               <img width="646" height="403" alt="image" src="https://github.com/user-attachments/assets/bd0c36ba-feb2-46ca-9b56-bc89b25551f7" />
+Stackholders
+
+
+<img width="646" height="403" alt="image" src="https://github.com/user-attachments/assets/bd0c36ba-feb2-46ca-9b56-bc89b25551f7" />
 
 Functional Requirements 
 
@@ -53,5 +55,8 @@ Non-Functional Requirements
 * Data accuracy >=95%.
  
 Acceptance Criteria
- 
+
+
+<img width="765" height="362" alt="image" src="https://github.com/user-attachments/assets/6c6957d8-01cc-472e-83cc-c07c31a29ded" />
+
 

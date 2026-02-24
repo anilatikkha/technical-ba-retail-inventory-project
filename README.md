@@ -68,9 +68,9 @@ Tableau Public Link- https://github.com/anilatikkha
 Project Status  
 In progress- Portfolio Demonstration Project
 
-Author
+Author  
 
-Anila Tikkha
-Technical Business Analyst
-Austin, Texas
+Anila Tikkha  
+Technical Business Analyst  
+Austin, Texas  
 H4 EAD – No Sponsorship Required

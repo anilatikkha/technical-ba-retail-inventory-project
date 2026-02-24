@@ -41,8 +41,17 @@ Functional Requirements
  
 
 Non-Functional Requirements
- 
 
+* Daily data refresh for dashboards.
+
+* Support 1000+ SKUs.
+
+* Web-based interface for dashboards.
+
+* Reports should load within 5 minutes.
+
+* Data accuracy >=95%.
+ 
 Acceptance Criteria
  
 

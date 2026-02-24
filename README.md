@@ -63,7 +63,7 @@ Technical Business Analyst
 4. KPI design
 5. Dashboard requirement definition
 
-Tableau Public Link- https://github.com/anilatikkha
+Tableau Public Link- https://public.tableau.com/app/profile/anila3144/viz/Book1_17693119961590/RetailInventoryInsightsDashboardRIMS
 
 Project Status  
 In progress- Portfolio Demonstration Project

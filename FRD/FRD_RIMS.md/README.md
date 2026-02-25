@@ -81,7 +81,7 @@ The system calculates total stock per SKU by aggregating stock quantities across
 
 6. Reporting & Dashboard Requirements
 
-Dashboard 1: Stock by Warehouse
+Sheet 1: Stock by Warehouse
 
 Bar chart
 
@@ -91,7 +91,7 @@ Y-axis: Total Stock
 
 Data Source: Aggregated SQL output
 
-Dashboard 2: Low Stock SKU Alert
+Sheet 2: Low Stock SKU Alert
 
 Highlight table
 
@@ -99,7 +99,7 @@ Filter: total_stock < 10
 
 Color coded (Red = Critical)
 
-Dashboard 3: Transaction Trend
+Sheet 3: Transaction Trend
 
 Line chart
 

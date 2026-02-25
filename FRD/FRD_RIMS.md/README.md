@@ -106,4 +106,48 @@ Line chart
 X-axis: Transaction Date
 
 Y-axis: Sum(stock_qty)
+7. Non-Functional Technical Requirements
+Category
 
+Requirement
+
+Performance
+
+Dashboard loads < 5 seconds
+
+Data Refresh
+
+Daily refresh
+
+Security
+
+Role-based visibilty ( Future enhancement: limit dashboards
+
+and data by user roles(Warehouse manager, Supply Chain Manager))
+
+Scalability
+
+Support 1000+ SKUs
+
+8. Traceability Matrix 
+BRD Requirement
+
+FRD Section
+
+Track inventory
+
+Database Design
+
+Low-stock alert
+
+Validation Rules
+
+Dashboard reporting
+
+Reporting Section
+
+Data accuracy
+
+SQL Validation
+
+ 

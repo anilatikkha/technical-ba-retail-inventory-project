@@ -70,3 +70,12 @@ Low Stock Count
 
 The system calculates total stock per SKU by aggregating stock quantities across warehouses. SKUs with total stock below 10 units are flagged as “Low Stock” using calculated fields in Tableau and displayed in the dashboard alert section.
 
+5.3 Data Validation Rules
+
+| Rule ID | Validation Rule         | Description                               |
+| ------- | ----------------------- | ----------------------------------------- |
+| VR-01   | No Negative Final Stock | Final aggregated stock cannot be negative |
+| VR-02   | Valid SKU Format        | SKU must start with "SKU"                 |
+| VR-03   | Transaction Type        | Must be either IN or OUT                  |
+| VR-04   | Date Validation         | Transaction date cannot be future date    |
+

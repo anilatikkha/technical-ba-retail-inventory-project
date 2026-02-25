@@ -79,3 +79,31 @@ The system calculates total stock per SKU by aggregating stock quantities across
 | VR-03   | Transaction Type        | Must be either IN or OUT                  |
 | VR-04   | Date Validation         | Transaction date cannot be future date    |
 
+6. Reporting & Dashboard Requirements
+
+Dashboard 1: Stock by Warehouse
+
+Bar chart
+
+X-axis: Warehouse ID
+
+Y-axis: Total Stock
+
+Data Source: Aggregated SQL output
+
+Dashboard 2: Low Stock SKU Alert
+
+Highlight table
+
+Filter: total_stock < 10
+
+Color coded (Red = Critical)
+
+Dashboard 3: Transaction Trend
+
+Line chart
+
+X-axis: Transaction Date
+
+Y-axis: Sum(stock_qty)
+

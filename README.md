@@ -81,4 +81,4 @@ Author
 Anila Tikkha  
 Technical Business Analyst  
 Austin, Texas  
-H4 EAD – No Sponsorship Required
+Authorized to work in the U.S.A – No Sponsorship Required

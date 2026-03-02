@@ -63,7 +63,11 @@ Technical Business Analyst
 4. KPI design
 5. Dashboard requirement definition
 
-Tableau Public Link- https://public.tableau.com/app/profile/anila3144/viz/Book1_17693119961590/RetailInventoryInsightsDashboardRIMS
+Tableau Public Link- 
+
+
+https://public.tableau.com/app/profile/anila3144/viz/Book1_17693119961590/LowStockInventory
+
 
 draw.io - Created a process workflow diagram to represent activities, roles, and decision logic. The tool can vary — Blueworks, Visio, Draw.io — but the objective is process clarity and stakeholder alignment.
 

@@ -65,8 +65,12 @@ Technical Business Analyst
 
 Tableau Public Link- https://public.tableau.com/app/profile/anila3144/viz/Book1_17693119961590/RetailInventoryInsightsDashboardRIMS
 
+draw.io - Created a process workflow diagram to represent activities, roles, and decision logic. The tool can vary — Blueworks, Visio, Draw.io — but the objective is process clarity and stakeholder alignment.
+
+<img width="712" height="649" alt="image" src="https://github.com/user-attachments/assets/edc110ba-ac01-46e5-96c4-3a98f635a79c" />
+
 Project Status  
-In progress- Portfolio Demonstration Project
+COMPLETED- Portfolio Demonstration Project
 
 Author  
 

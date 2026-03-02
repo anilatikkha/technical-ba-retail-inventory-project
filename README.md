@@ -109,6 +109,6 @@ COMPLETED- Portfolio Demonstration Project
 Author
 
 Anila Tikkha  
-Technical Business Analyst  
+Business Analyst  
 Austin, Texas  
 Authorized to work in the U.S. (No sponsorship required)

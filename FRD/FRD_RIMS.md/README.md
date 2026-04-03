@@ -1,6 +1,7 @@
-FRD:
+**FRD:**
+The link below is the confluece link for the FRD document.
 (https://anilatikkha31.atlassian.net/wiki/spaces/RIMS/pages/5308417/FRD+-+Retail+Inventory+Management+System+RIMS)
-1. Document Overview
+**1. Document Overview**
 
 Project Name: Retail Inventory Management System (RIMS)  
 Document Type: Functional Requirement Document (FRD)  
@@ -8,7 +9,7 @@ Prepared By: Anila Tikkha - Technical Business Analyst
 
 Purpose: This document defines system functionality, technical design,  database structure, and data validation rules required to implement the Retail Inventory Management System.
 
-2. System Architecture Overview
+**2. System Architecture Overview**
 
 High-Level Data Flow
 
@@ -22,9 +23,10 @@ This diagram illustrates the data flow within the Retail Inventory Management Sy
 
 3. Database Design (PostgreSQL)
 
+   
     <img width="658" height="450" alt="image" src="https://github.com/user-attachments/assets/827acdb8-51af-49ab-a666-af0dc08c7187" />
       
-4. Functional Process Flow
+**4. Functional Process Flow**
 
 4.1 Inventory Tracking
 
@@ -38,7 +40,7 @@ This diagram illustrates the data flow within the Retail Inventory Management Sy
 
 * Tableau dashboards display aggregated insights.
 
-5. Business Logic & Validation Rules
+**5. Business Logic & Validation Rules**
 
 5.1 Find Stock Quantities
 
@@ -72,7 +74,7 @@ Low Stock Count
 
 The system calculates total stock per SKU by aggregating stock quantities across warehouses. SKUs with total stock below 10 units are flagged as “Low Stock” using calculated fields in Tableau and displayed in the dashboard alert section.
 
-5.3 Data Validation Rules
+**5.3 Data Validation Rules**
 
 | Rule ID | Validation Rule         | Description                               |
 | ------- | ----------------------- | ----------------------------------------- |
@@ -81,9 +83,9 @@ The system calculates total stock per SKU by aggregating stock quantities across
 | VR-03   | Transaction Type        | Must be either IN or OUT                  |
 | VR-04   | Date Validation         | Transaction date cannot be future date    |
 
-6. Reporting & Dashboard Requirements
+**6. Reporting & Dashboard Requirements**
 
-Sheet 1: Stock by Warehouse
+**Sheet 1: Stock by Warehouse**
 
 Bar chart
 
@@ -93,7 +95,7 @@ Y-axis: Total Stock
 
 Data Source: Aggregated SQL output
 
-Sheet 2: Low Stock SKU Alert
+**Sheet 2: Low Stock SKU Alert**
 
 Highlight table
 
@@ -101,13 +103,13 @@ Filter: total_stock < 10
 
 Color coded (Red = Critical)
 
-Sheet 3: Transaction Trend
+**Sheet 3: Transaction Trend**
 
 Line chart
 
 X-axis: Transaction Date
 
-Y-axis: Sum(stock_qty)  
+Y-axis: Sum(stock_qty)    
 <img width="828" height="352" alt="image" src="https://github.com/user-attachments/assets/07b55374-06f0-41ce-b03f-f141e5507dbf" />
 
 

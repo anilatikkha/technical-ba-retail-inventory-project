@@ -1,6 +1,5 @@
 FRD:
-https://anilatikkha31.atlassian.net/wiki/spaces/RIMS/overview
-
+(https://anilatikkha31.atlassian.net/wiki/spaces/RIMS/pages/5308417/FRD+-+Retail+Inventory+Management+System+RIMS)
 1. Document Overview
 
 Project Name: Retail Inventory Management System (RIMS)  
@@ -124,19 +123,6 @@ enhancement  -    Limit dashboards and data by user roles
 
 Scalability  -    Support 1000+ SKUs
 
-8. Traceability Matrix 
-BRD Requirement   FRD Section   Track inventory             Database Design
-
-Low-stock alert
-
-Validation Rules
-
-Dashboard reporting
-
-Reporting Section
-
-Data accuracy
-
-SQL Validation
+<img width="557" height="343" alt="image" src="https://github.com/user-attachments/assets/879085cf-9d0a-4cd4-8449-5bc76b4699ac" />
 
  

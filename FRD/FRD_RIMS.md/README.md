@@ -1,5 +1,5 @@
 **FRD:**
-The link below is the confluece link for the FRD document.
+The link below is the confluece link for the FRD document.  
 (https://anilatikkha31.atlassian.net/wiki/spaces/RIMS/pages/5308417/FRD+-+Retail+Inventory+Management+System+RIMS)
 **1. Document Overview**
 

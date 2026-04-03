@@ -1,6 +1,7 @@
 This folder contains Tableau Dashboard screenshots.
 
-Tableau Public Link- https://github.com/anilatikkha  
+Tableau Public Link- https://public.tableau.com/views/Book1_17693119961590/LowStockInventory?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
 **RIMS Dashboard**  
 
 

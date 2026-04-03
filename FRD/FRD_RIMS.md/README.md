@@ -1,3 +1,6 @@
+FRD:
+https://anilatikkha31.atlassian.net/wiki/spaces/RIMS/overview
+
 1. Document Overview
 
 Project Name: Retail Inventory Management System (RIMS)  

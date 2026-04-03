@@ -107,21 +107,9 @@ Line chart
 
 X-axis: Transaction Date
 
-Y-axis: Sum(stock_qty)
-7. Non-Functional Technical Requirements
-Category     -    Requirement
+Y-axis: Sum(stock_qty)  
+<img width="828" height="352" alt="image" src="https://github.com/user-attachments/assets/07b55374-06f0-41ce-b03f-f141e5507dbf" />
 
-Performance  -    Dashboard loads < 5 seconds
-
-Data Refresh -    Daily refresh
-
-Security     -    Role-based visibility  
-
-Future 
-enhancement  -    Limit dashboards and data by user roles 
-                  (Warehouse manager, Supply Chain Manager)
-
-Scalability  -    Support 1000+ SKUs
 
 <img width="557" height="343" alt="image" src="https://github.com/user-attachments/assets/879085cf-9d0a-4cd4-8449-5bc76b4699ac" />
 

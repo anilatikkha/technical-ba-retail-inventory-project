@@ -1,8 +1,8 @@
 1. Document Overview
 
-Project Name: Retail Inventory Management System (RIMS)
-Document Type: Functional Requirement Document (FRD)
-Prepared By: Anila Tikkha - Technical Business Analyst
+Project Name: Retail Inventory Management System (RIMS)  
+Document Type: Functional Requirement Document (FRD)  
+Prepared By: Anila Tikkha - Technical Business Analyst  
 
 Purpose: This document defines system functionality, technical design,  database structure, and data validation rules required to implement the Retail Inventory Management System.
 
@@ -10,13 +10,13 @@ Purpose: This document defines system functionality, technical design,  database
 
 High-Level Data Flow
 
-PostgreSQL Database
-→ SQL Validation Queries
-→ Exported Dataset (CSV)
-→ Tableau Dashboard
-→ Business Users (Warehouse / Supply Chain)
+PostgreSQL Database  
+→ SQL Validation Queries  
+→ Exported Dataset (CSV)  
+→ Tableau Dashboard  
+→ Business Users (Warehouse / Supply Chain)  
 
-This diagram illustrates the data flow within the Retail Inventory Management System (RIMS). Inventory data is stored in PostgreSQL, validated through SQL queries,  exported as a structured dataset, visualized in Tableau dashboards, and consumed by warehouse and supply chain teams for decision-making.
+This diagram illustrates the data flow within the Retail Inventory Management System (RIMS). Inventory data is stored in PostgreSQL, validated through SQL queries,  exported as a structured dataset, visualized in Tableau dashboards, and consumed by warehouse and supply chain teams for decision-making.  
 
 3. Database Design (PostgreSQL)
 
@@ -44,18 +44,18 @@ SELECT sku_id, SUM(stock_qty) as total_stock FROM inventory_transactions GROUP B
 
 5.2 Find Low Stock SKUs
 
-SELECT sku_id, SUM(stock_qty) as total_stock
-FROM inventory_transactions GROUP BY sku_id HAVING SUM(stock_qty) <=5
+SELECT sku_id, SUM(stock_qty) as total_stock  
+FROM inventory_transactions GROUP BY sku_id HAVING SUM(stock_qty) <=5  
 ORDER BY total_stock;
 
 Low Stock Rule
 
-SELECT sku_id, SUM(stock_qty) as total_stock,
-CASE
-   WHEN (SUM(stock_qty)<5) THEN 'LOW STOCK'
-   ELSE 'OK'
-END AS stock_status
-from inventory_transactions GROUP BY sku_id; 
+SELECT sku_id, SUM(stock_qty) as total_stock,  
+CASE  
+   WHEN (SUM(stock_qty)<10) THEN 'LOW STOCK'  
+   ELSE 'OK'  
+END AS stock_status  
+from inventory_transactions GROUP BY sku_id;   
 
 The system shall flag an SKU as ‘LOW Stock’ when the total available quantity across all warehouses is less than 5 units. 
 
@@ -107,36 +107,22 @@ X-axis: Transaction Date
 
 Y-axis: Sum(stock_qty)
 7. Non-Functional Technical Requirements
-Category
+Category     -    Requirement
 
-Requirement
+Performance  -    Dashboard loads < 5 seconds
 
-Performance
+Data Refresh -    Daily refresh
 
-Dashboard loads < 5 seconds
+Security     -    Role-based visibility  
 
-Data Refresh
+Future 
+enhancement  -    Limit dashboards and data by user roles 
+                  (Warehouse manager, Supply Chain Manager)
 
-Daily refresh
-
-Security
-
-Role-based visibilty ( Future enhancement: limit dashboards
-
-and data by user roles(Warehouse manager, Supply Chain Manager))
-
-Scalability
-
-Support 1000+ SKUs
+Scalability  -    Support 1000+ SKUs
 
 8. Traceability Matrix 
-BRD Requirement
-
-FRD Section
-
-Track inventory
-
-Database Design
+BRD Requirement   FRD Section   Track inventory             Database Design
 
 Low-stock alert
 

@@ -21,6 +21,11 @@ https://anilatikkha31.atlassian.net/wiki/spaces/RIMS/pages/25985037/To-Be+Invent
 
 **To-Be Inventory Replenishment**  
 
+<img width="503" height="631" alt="image" src="https://github.com/user-attachments/assets/a29c8a6d-1697-43bc-9ef8-cb9adecf78d4" />
+<img width="419" height="427" alt="image" src="https://github.com/user-attachments/assets/45593949-3936-4d88-9d88-14835e79b2a4" />
+
+
+
 
 
   
